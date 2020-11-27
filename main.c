@@ -1,19 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int i = 0;
-    float f = 3.5;
-    double d = 2.5;
-    char c = 'c';
+    char imie[20], nazwisko[20];
 
-    printf("wartosci moich zmiennych: i = %i, f = %.2f, d = %.2lf, c = %c\n", i, f, d, c);
-
-    scanf ("%i", &i);
-    scanf ("%f", &f);
-    scanf ("%lf", &d);
-    scanf (" %c", &c);
-
-    printf("wartosci moich zmiennych: i = %i, f = %.2f, d = %.2lf, c = %c\n", i, f, d, c);
+    scanf ("%s" "%s", imie, nazwisko);
+    printf("dane: %s %s",nazwisko,imie);
 
     return 0;
 }
