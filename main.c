@@ -6,14 +6,14 @@ int main() {
     double d = 2.5;
     char c = 'c';
 
-    printf("wartosci moich zmiennych: i = %i, f = %.2f, d = %.2f, c = %c\n", i, f, d, c);
+    printf("wartosci moich zmiennych: i = %i, f = %.2f, d = %.2lf, c = %c\n", i, f, d, c);
 
     scanf ("%i", &i);
     scanf ("%f", &f);
-    scanf ("%f", &d);
-    scanf ("%c", &c);
+    scanf ("%lf", &d);
+    scanf (" %c", &c);
 
-    printf("wartosci moich zmiennych: i = %i, f = %.2f, d = %.2f, c = %c\n", i, f, d, c);
+    printf("wartosci moich zmiennych: i = %i, f = %.2f, d = %.2lf, c = %c\n", i, f, d, c);
 
     return 0;
 }
